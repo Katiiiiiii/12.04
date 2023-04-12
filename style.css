@@ -1,0 +1,45 @@
+ 
+ body, h1,h2,h3,h4,h5,p,a {
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    text-align: right;
+ }
+ 
+ .a {
+    color: aqua;
+ }
+
+ .header_container {
+    width: 100%;
+    margin: 5px;
+    background-color: aquamarine;
+
+    display: table-cell;
+    vertical-align: center;
+    justify-content: center;
+ }
+
+ .header_container {
+    max-width: 1200px;
+    background-color: rgb(0, 4, 255);
+
+    display: table-cell;
+    vertical-align: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .menu_items {
+    margin: "5px";
+    display: inline-block;
+    justify-content: space-around;
+    flex: 10;
+    align-items: flex-start;
+ }
+
+ 
